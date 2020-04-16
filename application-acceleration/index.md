@@ -15,7 +15,7 @@ Application Acceleration extends the functionality of the Azion Edge Application
 
 ## 1. Advanced Cache Key {#AdvancedCacheKey}
 
-You can use Azion to deliver your dynamic or static content. Even the dynamic part of a website can often be cached for a user profile, grouped according to the specific needs of your application, whether by city, browsing profile, or shopping profile. If you want your dynamic content to be cached on Azion's Edge Nodes, you can define advanced cache key rules based on Cookies or Query String.
+You can used Azion to deliver your dynamic or static content. Even the dynamic part of a website can often be cached for a user profile, grouped according to the specific needs of your application, whether by city, browsing profile, or shopping profile. If you want your dynamic content to be cached on Azion's Edge Nodes, you can define advanced cache key rules based on Cookies or Query String.
 
 As a standard, Azion considers each URL as a different object in cache. Through the Advanced Cache Key, you can configure a custom cache key rule based on Cookies or Query String and, with that, define the segmentation of your content in your application.
 
