@@ -1,0 +1,42 @@
+
+
+# Edge **Node**
+
+O Azion Edge Node permite a criação de uma infraestrutura própria de Edge, habilitando a instalação de serviços e recursos em real-time.
+
+Texto
+
+> 1. [Como instalar](#como-instalar)
+> 2. [Autorizar](#autorizar)
+> 3. [Configurações principais](#configurações-principais)
+> 4. [Serviços](#serviços)
+
+---
+
+## 1. Como instalar {#como-instalar}
+
+A instalação do Edge Node 
+
+---
+
+## 2. Autorizar {#autorizar}
+
+O Azion E...
+
+---
+
+## 3. Configurações principais {#configurações-principais}
+
+O Azion E...
+
+---
+
+## 4. Serviços {#serviços}
+
+O Azion E...
+
+---
+
+Didn't find what you were looking for? [Open a support ticket.](https://tickets.azion.com/)
+
+[Edit this page](https://github.com/aziontech/docs_en/edit/master/edge-firewall/index.md) on GitHub.
