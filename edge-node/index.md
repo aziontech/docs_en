@@ -18,13 +18,19 @@ A instalação do Edge Node é, basicamente, dividida em 3 etapas: 1- Geração 
 
 ### 1.1 Geração da credencial {#geracao-credencial}
 
-Para gerar a credencial necessária para autenticação dos seus edge nodes, os seguintes passos devem ser executados:
-	1- Acessar o [Real-Time Manager](https://manager.azion.com/);
-	2- No menu superior direito, acessar a página [Credentials]();
-	3- Clicar no botão Add;
-	4- Preencher os campos necessários e clicar no botão Save:
-		**Description:** Descreva, por exemplo, como ou por quem a credencial será utilizada;
-		**Teams:** Vincule as permissões de ações que a credencial poderá exercer;
+Para gerar a credencial necessária para autenticação dos seus edge nodes, os seguintes passos devem ser executados:	
+
+​	1- Acessar o [Real-Time Manager](https://manager.azion.com/);
+
+​	2- No menu superior direito, acessar a página [Credentials]();
+
+​	3- Clicar no botão Add;
+
+​	4- Preencher os campos necessários e clicar no botão Save:
+
+​		**Description:** Descreva, por exemplo, como ou por quem a credencial será utilizada;
+
+​		**Teams:** Vincule as permissões de ações que a credencial poderá exercer;
 
 **Observação:** O Token será gerado após a credencial ser salva.
 
@@ -38,9 +44,9 @@ Via linha de comando, você deve inserir o código disponibilizado, para que seu
 
 Confira a listagem de plataformas/arquiteturas compatíveis com o Azion Edge Node:
 
-Arquitetura | Versão 
+Arquitetura (VALIDAR) | Versão 
 :------------ | :---------
-CentOS      |  6.2
+CentOS (validar)      | 6.2 (validar) 
 
 ### 1.3 Autenticação {#autenticacao}
 
@@ -55,8 +61,10 @@ Após informar o Token e receber a confirmação de que o seu node foi criado, s
 Sempre que o código de instalação for executado em algum device, seguido da autenticação via Token, os edge nodes serão listados no [Real-Time Manager](https://manager.azion.com/).
 
 Para visualizar a lista de edge nodes criados para a sua conta, os seguintes passos devem ser executados:
-	1- Acessar o [Real-Time Manager](https://manager.azion.com/);
-	2- No menu superior esquerdo, acessar o item *Routing* e selecionar a página [Edge Node]();
+
+​	1- Acessar o [Real-Time Manager](https://manager.azion.com/);
+
+​	2- No menu superior esquerdo, acessar o item *Routing* e selecionar a página [Edge Node]();
 
 **Observação:** Os itens listados podem ter sua veracidade confirmada, validando a coluna de Credencial, pois tem o dado de qual credencial executou a autenticação para a geração do node.
 
