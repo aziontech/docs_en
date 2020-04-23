@@ -7,8 +7,8 @@ O Azion Edge Node permite a criação de uma infraestrutura edge própria, habil
 > 1. [Instalar](#instalar)
 > 2. [Visualizar](#Visualizar)
 > 3. [Autorizar](#autorizar)
-> 4. [Configurações principais](#configurações-principais)
-> 5. [Serviços](#serviços)
+> 4. [Configurações principais](#configuracoes-principais)
+> 5. [Serviços](#servicos)
 
 ---
 
@@ -32,17 +32,15 @@ Para gerar a credencial necessária para autenticação dos seus edge nodes, os 
 
 A instalação do Edge Node acontece por meio do script de instalação abaixo:
 
-ˋˋˋapt-get ...ˋˋˋ
+`apt-get ...`
 
 Via linha de comando, você deve inserir o código disponibilizado, para que seu device instale o framework core necessário para iniciar a executar suas aplicações.
 
-Confira a listagem de plataformas/arquiteturas compatíveis com o Azion Edge Node.
+Confira a listagem de plataformas/arquiteturas compatíveis com o Azion Edge Node:
 
-Arquitetura |
-:-------------
-CentOS
-
-
+Arquitetura | Versão 
+:------------ | :---------
+CentOS      |  6.2
 
 ### 1.3 Autenticação {#autenticacao}
 
@@ -54,7 +52,13 @@ Após informar o Token e receber a confirmação de que o seu node foi criado, s
 
 ## 2. Visualizar {#visualizar}
 
-O Azion E...
+Sempre que o código de instalação for executado em algum device, seguido da autenticação via Token, os edge nodes serão listados no [Real-Time Manager](https://manager.azion.com/).
+
+Para visualizar a lista de edge nodes criados para a sua conta, os seguintes passos devem ser executados:
+	1- Acessar o [Real-Time Manager](https://manager.azion.com/);
+	2- No menu superior esquerdo, acessar o item *Routing* e selecionar a página [Edge Node]();
+
+**Observação:** Os itens listados podem ter sua veracidade confirmada, validando a coluna de Credencial, pois tem o dado de qual credencial executou a autenticação para a geração do node.
 
 ---
 
@@ -64,13 +68,13 @@ O Azion E...
 
 ---
 
-## 4. Configurações principais {#configurações-principais}
+## 4. Configurações principais {#configuracoes-principais}
 
 O Azion E...
 
 ---
 
-## 5. Serviços {#serviços}
+## 5. Serviços {#servicos}
 
 O Azion E...
 
