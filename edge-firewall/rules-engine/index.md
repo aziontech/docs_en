@@ -1,4 +1,4 @@
-# Rules Engine for**Edge Firewall**
+# Rules Engine for **Edge Firewall**
 
 The Rules Engine is designed for you to be able to implement your security logic at the edge. Based on programmable criteria, you choose what you want to do: block, ignore the request, limit the access rate, apply a WAF policy, perform an edge function with your own security code or simply monitor traffic to identify threats.
 
