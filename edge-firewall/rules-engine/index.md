@@ -183,4 +183,4 @@ For your WAF to effectively take action it is necessary to associate it with a B
 
 Didn't find what you were looking for? [Open a ticket.](https://tickets.azion.com/)
 
-[Edit this page](https://github.com/aziontech/docs_en/edit/master/edge-caching/rules-engine/index.md) on GitHub.
+[Edit this page](https://github.com/aziontech/docs_en/blob/master/edge-firewall/rules-engine/index.md) on GitHub.
