@@ -1,5 +1,7 @@
 # Azion Edge Caching: an evolution of CDN with **Edge Computing**
 
+[Edit on GitHub  <svg width="14" height="14" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#F3652B"><path d="M4.81.71H.672v11.43H12.1V8.001" stroke-width=".8"/><path d="M6.87.786h5.155V5.94M6.31 6.5L12.026.786"/></g></svg>](https://github.com/aziontech/docs_en/edit/master/use-cases/edge-caching/index.md)
+
 In 2019, on-line sales in Brazil alone was around BRL 61.2 billion. In 2020, the sector is predicted to grow by more than 20%. If we also add in, for example, the education and financial sectors, the figures only get bigger. More and more efficient solutions are needed to keep this huge volume of transactions going.
 
 Traditional Content Delivery Network (CDN) services will not be enough to deal with this. What can make a big difference for organizations is to be able to process the data closer to the customer, through an Edge Computing platform, running Edge Caching. 
@@ -50,5 +52,3 @@ Finally, add a new item to the **Rule Engine**, called RuleRecommendations, usin
 ---
 
 Didn’t find what you were looking for? [Open a support ticket.](https://tickets.azion.com/)
-
-[Edit this page](https://github.com/aziontech/docs_en/edit/master/use-cases/edge-caching/index.md) on GitHub.
