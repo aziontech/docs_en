@@ -8,9 +8,9 @@ At Azion, you can count on the following SSL Certificate options for HTTPS traff
 
 > 1. _[Shared Domain](#shared-domain)_
 > 2. _[Custom Certificate](#custom-certificate)_
-> 3. _RSA_
-> 4. _ECC/ECDSA_
-> 5. _How to use Custom Certificate_
+> 3. _[RSA](#rsa)_
+> 4. _[ECC/ECDSA](#ecc-ecdsa)_
+> 5. _[How to use Custom Certificate](#how-to-use-custom-certificate)_
 
 ---
 
@@ -39,19 +39,19 @@ To use your domain in HTTPS you will need your own SSL Certificate (X.509). You 
 
 Azion currently works with two types of certificates, which are: “RSA” and “ECC/ECDSA”. Each certificate has its characteristics and its security level, and Azion allows you to choose the option that best fits your scenario.
 
-## 3. RSA
+## 3. RSA {#rsa}
 
 It is one of the first public key cryptography systems and is widely used for the secure transmission of data. In this encryption system, the encryption key is public and is different from the decryption key that is secret (private). Any message encrypted using a public key can only be decrypted using the respective private key.  
 
 RSA is a relatively slow algorithm and is therefore less used to directly encrypt user data. Most often, RSA passes shared encrypted keys to symmetric key encryption, which in turn can perform mass encryption-decryption operations at a much greater speed.
 
-## 4. ECC/ECDSA
+## 4. ECC/ECDSA {#ecc-ecdsa}
 
 Elliptical Curve Cryptography is an approach to public key cryptography based on the algebraic structure of elliptical curves. Public key cryptography is based on the creation of mathematical puzzles that are difficult to solve, therefore it becomes much more secure than other types of certificates such as RSA.
 
 Smaller keys are less computationally intensive to generate signatures because they involve smaller mathematical numbers. ECC is faster in generating signatures and has better performance than RSA.
 
-## 5. How to use Custom Certificate
+## 5. How to use Custom Certificate {#how-to-use-custom-certificate}
 
 To add your Custom Certificate, you will need the Certificate pair (X.509) in [ASCII PEM](https://www.google.com.br/search?q=Como+converter+um+certificado+PFX+para+PEM&cad=h) format and the respective private key, which cannot be protected by *passphrase*.
 
