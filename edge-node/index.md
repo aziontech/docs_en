@@ -9,7 +9,6 @@ O Azion Edge Node permite a criação de uma infraestrutura edge própria, habil
 > 1. [Instalar](#instalar)
 > 2. [Visualizar](#Visualizar)
 > 3. [Autorizar](#autorizar)
-> 4. [Configurações principais](#configuracoes-principais)
 > 5. [Serviços](#servicos)
 
 ---
@@ -86,7 +85,7 @@ Para que seus edge nodes iniciem a Orquestração, os mesmos devem ser autorizad
 
 ​	3- Validar a listagem de Edge Nodes;
 
-​	4- Clicar no ícone "Chave" e aceitar a janela de confirmação.
+​	4- Clicar no ícone (Chave) e aceitar a janela de confirmação.
 
 Após este processo, o Edge Node pode demorar até 10 segundos para que a orquestração seja iniciada.
 
@@ -94,13 +93,21 @@ Após este processo, o Edge Node pode demorar até 10 segundos para que a orques
 
 ## 4. Serviços {#servicos}
 
-O Azion E...
+Para instanciar os serviços cadastrados na sua biblioteca, os seguintes passos devem ser executados:
 
----
+​	1- Acessar o [Real-Time Manager](https://manager.azion.com/);
 
-## 5. Configs? {#servicos}
+​	2- No menu superior esquerdo, acessar o item *Routing Services* e selecionar a página [Edge Node]();
 
-O Azion E...VALIDAR
+​	3- Na listagem de Edge Nodes, selecione o edge node que deseja configurar;
+
+​	4- Acesse a aba "Services" e clique no botão "Add Service";
+
+​	5- Dê um nome à sua instância, vincule o serviço desejado e, caso necessário, configure as varáveis necessárias para a execução.
+
+Os serviços disponíveis para orquestração via Edge Node, devem estar cadastrados em [Libraries > Services](https://manager.azion.com/) e marcados como ativo.
+
+Após a instância do serviço, o Edge Node inicia a orquestração seguindo a prioridade dos recursos.
 
 ---
 
