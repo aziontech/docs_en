@@ -69,7 +69,10 @@ If you use the asterisk (*) character in a URL Purge request, it will be treated
 Examples of a URL Purge:
 
 ~~~
-www.yourdomain.com static.yourdomain.com/include/site.css static.yourdomain.com/include/site.js dynamic.yourdomain.com/app.py?argument
+www.yourdomain.com
+static.yourdomain.com/include/site.css
+static.yourdomain.com/include/site.js
+dynamic.yourdomain.com/app.py?argument
 ~~~
 
 **Wildcard Purge**
@@ -79,7 +82,20 @@ It allows for the purge of cached objects, giving a Wildcard expression as an ar
 The Wildcard expression is automatically converted to multiple objects in the same domain. To expire the content variations based on cookies, device groups or image format, for the same URL, use the URL with the expression “@@ *” at the end.
 
 ~~~
-www.yourdomain.com/* static.yourdomain.com/include/*.css static.yourdomain.com/*/site.js static.yourdomain.com/images/image_1.jpg?ims=* dynamic.yourdomain.com/app.py@@*
+www.yourdomain.com/*
+static.yourdomain.com/include/*.css
+static.yourdomain.com/*/site.js
+static.yourdomain.com/images/image_1.jpg?ims=*
+dynamic.yourdomain.com/app.py@@*
+~~~
+
+You can even use multiple wildcards to select a complex pattern.
+~~~
+www.yourdomain.com/*/images*
+static.yourdomain.com/*/*.css 
+static.yourdomain.com/*/my-jscripts/*/*.js 
+static.yourdomain.com/images/image_*.*?ims=*
+dynamic.yourdomain.com/app*.*@@*
 ~~~
 
 
@@ -145,7 +161,9 @@ When using the Adaptive Delivery product, you will be using an advanced cache ke
 For example, for the same URL http://www.yourdomain.com/, using Adaptive Delivery, the cache keys could be:
 
 ~~~
-www.yourdomain.com/@@ www.yourdomain.com/@@Mobile www.yourdomain.com/@@Tablet
+www.yourdomain.com/@@
+www.yourdomain.com/@@Mobile
+www.yourdomain.com/@@Tablet
 ~~~
 
 To purge objects with variations based on device groups, you can use a Cache Key Purge, reporting all the variations individually, or a Wildcard Purge, using @@* at the end.
@@ -157,7 +175,8 @@ When using cookie-based content variation, in addition to the host and path, the
 For example, for the same URL http://www.yourdomain.com/, using content variation based on the “user” cookie, the cache keys could be:
 
 ~~~
-www.yourdomain.com/@@ www.yourdomain.com/@@user=user1 
+www.yourdomain.com/@@
+www.yourdomain.com/@@user=user1 
 www.yourdomain.com/@@user=user2
 ~~~
 
