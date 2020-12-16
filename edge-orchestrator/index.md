@@ -14,7 +14,7 @@ Edge Orchestrator can be used with most network architecture, including local an
 
 ---
 
-## 1. How does it works? {#how-it-works}
+## 1. How does it work? {#how-it-works}
 
 An Azion Edge Orchestrator agent is installed on the edge nodes and provides end-to-end encrypted remote node management from the control panel ([Real-Time Manager](https://manager.azion.com/)) based in the cloud and API. It can be deployed in two different ways: 1) through manual installation on each edge node; or 2) automatic installation along with the operating system (for example: a Linux distro or the image of a client's OS) or hardware supplier (for example: an SD-WAN router, a network switch or a Linux server). Customers can use an automatic registration mode, which makes it simpler to deploy (e.g. to new node locations or using automatic node scaling), update and manage a large number of scaling edge nodes.
 
