@@ -53,7 +53,7 @@ Records are indexed as key: value. If you use only one keyword, such as www, you
 
 You can also restrict the search to a particular field, using the notation: *key:value*, such as *status:200*. In this case, you will filter only the records which have a value specified for this key.
 
-You may search for more complex field compositions. Use the notations AND and OR, in the search field to combine the fields, such as **status:200 AND scheme:https**.
+You may search for more complex field compositions. Use the notations AND and OR, in the search field to combine the fields, such as `status:200 AND scheme:https`.
 
 ---
 
