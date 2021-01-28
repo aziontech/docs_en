@@ -2,109 +2,139 @@
 
 [Edit on GitHub <svg width="14" height="14" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#F3652B"><path d="M4.81.71H.672v11.43H12.1V8.001" stroke-width=".8"/><path d="M6.87.786h5.155V5.94M6.31 6.5L12.026.786"/></g></svg>](https://github.com/aziontech/docs_en/edit/master/real-time-metrics/index.md)
 
-To use Metrics you need to access the [Real-Time Manager](https://manager.azion.com/) and click on Control your traffic.
+Real-Time Metrics is an Edge Analytics product that provides you with real-time access to dozens of metrics so you can optimize all of your potential through our platform.
 
-The Metrics screen has some sections that you can apply filters to, such as:
+Get to know what's happening on the platform and track the behavior of your applications in real time.
 
-* Data Interval Filter section: Where you can select the period or domain that you would like shown.
-* Data section: Where the graphs of the requested data are displayed
-
-> 1. [Data Interval Filter](#DataFilterInterval)
-> 2. [Export to CSV](#ExportCsv)
-> 3. [How to Interpret the Graphics](#HowInterpretGraphics)
-> 4. [Data Transferred](#DataTransferred)
-> 5. [Requests](#Requests)
-> 6. [Status Codes](#StatusCodes)
-> 7. [HTTP Methods](#HTTPMethods)
-> 8. [WAF](#WebApplicationFirewall)
-> 9. [Connections](#LiveStreamingConnections)
-> 10. [Bandwidth](#Bandwidth)
+> 1. [Basics](#DataFilterInterval)
+> 2. [Accessing Real-Time Metrics](#ExportCsv)
+> 3. [Selecting your Data Interval Filter](#HowInterpretGraphics)
+> 4. [Exporting to CSV](#DataTransferred)
+> 5. [Interpreting your graphs](#Requests)
+> 6. [Tracking your applications](#StatusCodes)
+> 
+>    
 
 ---
 
-## 1. Data Interval Filter {#DataFilterInterval}
+## 1. Basics{#DataFilterInterval}
 
-All the graph options for the products in Metrics have the Data Interval Filter.
+The Real-Time Metrics screen is composed of the *Data Interval Filter* section and the *Data* section. 
 
-It is possible to filter by domain with some graphs.
+- *Data Interval Filter* section: where you set the domain or the period that you would like to check out.  
 
-The graphs are updated and display the information according to the criteria set by the filter.
+- *Data* section: where graphs are displayed according to your filter selection. 
 
----
+Real-Time Metrics enables you to apply filters to focus on a variety of data. You can select a period or domain you want to analyse or even choose where the graphs of the requested data are displayed. 
 
-## 2. Export to CSV {#export-to-csv}
 
-After applying the filters, you can export the information as a CSV file. To do this, click on the CSV icon next to the graph you need.
 
----
-
-## 3. How to interpret the graphs {#HowInterpretGraphics}
-
-The information is displayed according to the solution and period of time chosen in the filters, the displayed graphs are grouped by:
+> As you hover the mouse over the graphs, you’ll get the exact values transferred over a period.
 
 ---
 
-## 4. Data Transferred {#DataTransferred}
+## 2. Accessing Real-Time Metrics {#export-to-csv}
 
-This tab displays graphs giving information on the volume of data transferred for the solution that you chose. This tab has 4 graphs referring to the volume of data transferred for the solution and period selected, as follows:
+You are about to have real-time insight at your command! Get started with Real-Time Metrics as follows:
 
-**Edge Caching:** This graph displays the total (Saved Data + Missed Data) amount of data transferred for the solution and period selected. Hover the mouse over graph to see the exact values transferred over this period.
+- Enter [Real-Time Manager](https://manager.azion.com/) and click either on *Real-time Metrics* under Edge Analytics or through the top left menu. You’ll be directed to the Real-time Metrics - Edge Applications page.
 
-The values shown at the foot of the graph are the total amount during the period.
+---
 
-**Edge Offloaded:** This graph displays the Percentage of the amount of data that was delivered by the Azion solution, i.e. It displays a Saved Data graph in percentages. Hover the mouse over the graph to see the exact percentages over this period.
+## 3. Selecting your Data Interval Filter {#HowInterpretGraphics}
 
-The values shown at the foot of the graph are the averages during the period.
+As you access Real-time Metrics, you’ll see checkboxes on top of the page, with the filter options available for that product.  
 
-**Saved Data:** This graph displays the amount of data that was delivered by the Azion servers, i.e. Without looking up content on the origin server. Hover the mouse over the graph to see the exact amount over this period.
+All the graph options for the products in Real-Time Metrics have the Data Interval Filter. Some graphs allow you to filter by domain as follows:
 
-The values shown at the foot are the total amount during the period.
+1. Click on the arrows to select the domain or the period you would like to check out;
+2. Click on the Filter button to apply your selections.
 
-**Missed Data:** This graph displays the amount of data that was delivered by the origin server, i.e. The request went to the Azion servers, but the content could not be transferred to them from the origin. When the origin server deals with the request, it also sends the content to the Azion servers.
+The graphs are updated and the information is displayed accordingly. 
 
-The values shown at the foot of the graph are the total amount during the period.
+
+
+>  Note that the graphs presented will vary according to the products you have contracted.
+
+---
+
+## 4. Exporting to CSV
+
+You can export the information as a CSV file. 
+
+- After applying the filters, click on the CSV icon next to the graph you want to export. 
+
+  Done. Your data at your fingertips!
+
+---
+
+## 5. Interpreting your graphs 
+
+The information is displayed according to the product and period of time selected in the filters. Graphs will be grouped in tabs as described in the next section, *Tracking your Applications*.
+
+---
+
+## 6. Tracking your Applications {#DataTransferred}
+
+Information is key when taking decisions. Real-Time Metrics offers you a variety of options displayed in tabs, so you can support your actions more effectively. Check out the function of these tabs - *Data Transferred - Requests - Status Codes - HTTP Methods - WAF - Live Streaming* - as follows.
+
+### Data Transferred 
+
+This tab displays graphs referring to the amount of data transferred for the product and period you have selected. 
+
+**Edge Caching:** This graph shows the sum - *Saved Data* + *Missed Data* - of data transferred for the product and period you have selected. At the bottom of the graph, you'll see the total amount of data - Edge Application *In* + Edge Application *Out -*  transferred for the product and period you have selected.
+
+**L2 Caching:** You'll also get the data for *L2 Caching In* + *L2 Caching Out* displayed separately at the bottom of the graph. Your applications in greater detail.
+
+**Edge Offload:** This graph displays the percentage of the amount of data delivered by the Azion product. It displays the *Saved Data* graph in percentages. You'll see the averages for the period selected displayed at the bottom of the graph.
+
+***Saved Data:*** This graph displays the sum of data delivered by Azion servers, without looking up content on the origin server. You'll see the total amount for the selected period displayed at the bottom of the graph.
+
+***Missed Data:*** This graph displays the sum of data delivered by the origin server. It means that the request went to the Azion servers but the content had not been transferred from the origin server to Azion. As the origin server handles the request, it sends the content to the Azion servers as well.
+
+You'll see the total amount for the selected period displayed at the bottom of the graph.
 
 **Bandwidth Usage**
 
-**Total Bandwidth Usage:** Quantity of MBps in bandwidth used.
+***Total Bandwidth Usage:***  Quantity of MBps in bandwidth used. You'll see the average bandwidth used during the selected period displayed at the bottom of the graph. 
 
-Average bandwidth used during the period is displayed at the foot of the graph. 
+***Bandwidth Offloaded:*** Percentage of the bandwidth that was offloaded. You'll see the average bandwidth used during the selected period displayed at the bottom of the graph. 
 
-**Bandwidth Offload:** Percentage of the bandwidth that was offloaded.
+***Saved Bandwidth:*** Quantity of MBps of bandwidth that was delivered directly through the Edge Network, without looking up content on the origin server. 
 
-Average bandwidth used during the period is displayed at the foot of the graph.
+You'll see the average bandwidth used during the selected period displayed at the bottom of the graph. 
 
-**Saved Bandwidth:** Quantity of MBps of bandwidth that was delivered through CDN without needing to look up content on the origin server.
+***Missed Bandwidth:*** Quantity of MBps of bandwidth used by the origin server searching for content.
 
-Average bandwidth used during the period is displayed at the foot of the graph.
 
-**Missed Bandwidth:** Quantity of MBps of bandwidth, used by the origin server for content.
 
 ---
 
-## 5. Requests {#Requests}
+### Requests {#Requests}
 
-**Total Number of Requests:** Quantity of requests made for content. The total of requests during the period is displayed at the foot of the graph.
+**Total Number of Requests:** Quantity of requests made for content. You'll see the total of requests during the selected period displayed at the bottom of the graph.
 
-**Saved Requests:** Quantity of requests that were delivered by the Azion servers, i.e. Without looking up content on the origin server. The total number of requests delivered during the period is displayed at the foot of the graph.
+***Saved Requests:*** Quantity of requests delivered by the Azion servers without looking up content on the origin server. You'll see the total number of requests delivered during the selected period displayed at the bottom of the graph.
 
-**Missed Requests:** The amount of requests that were delivered by the origin server, i.e. The request went to the Azion servers, but the content could not be transferred to them from the origin. The total number of requests delivered by the origin during the period is displayed at the foot of the graph.
+***Missed Requests:*** The amount of requests delivered by the origin server. It means that the request went to the Azion servers but the content had not been transferred from the origin server to Azion. You'll see the total number of requests delivered by the origin server during the selected period displayed at the bottom of the graph.
 
 **Requests per Second**
 
-**Total Requests per Second:** The amount of requests, per second, from customers for content. The average number of requests per second during the period is displayed at the foot of the graph.
+***Total Requests per Second:*** The amount of requests per second, from customers for content. You'll see the average number of requests per second during the selected period displayed at the bottom of the graph.
 
-**Requests per Second Offloaded:** Percentage of the requests per second that were delivered by the Azion servers, i.e. Without looking up content on the origin server. The average for the period is at the foot.
+***Requests per Second Offloaded:*** Percentage of the requests per second delivered by the Azion servers without looking up content on the origin server. You'll see the average for the selected period is at the bottom of the graph. 
 
-**Saved Requests per Second:** Quantity of requests per second that were delivered by the Azion servers, i.e. Without looking up content on the origin server. The average number of requests delivered during the period is displayed at the foot of the graph.
+***Saved Requests per Second:*** Quantity of requests per second delivered by the Azion servers without looking up content on the origin server. You'll see the average number of requests delivered during the selected period displayed at the bottom of the graph. 
 
-**Missed Requests per Second:** The amount of requests per second that were delivered by the origin server, i.e. The request went to the Azion servers, but the content could not be transferred to them from the origin. The average number of requests per second during the period is displayed at the foot of the graph.
+***Missed Requests per Second:*** The amount of requests per second delivered by the origin server. It means that the request went to the Azion servers but the content had not been transferred from the origin server to Azion. You'll see the average number of requests per second during the selected period displayed at the bottom of the graph. 
+
+
 
 ---
 
-## 6. Status Codes {#StatusCodes}
+### Status Codes {#StatusCodes}
 
-This tab displays the graphs with information pertaining to the Status Codes of the content delivered. An excellent reference for getting a better understanding about the HTTP Status Codes can be found at this link: [List of HTTP Status Codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
+This tab displays the graphs with information related to the Status Codes of the content delivered. Learn more about the HTTP Status Codes at [List of HTTP Status Codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
 
 **HTTP Status Codes 2xx:** This type of status indicates that the user request was received, understood, accepted and processed by the server.
 
@@ -113,9 +143,9 @@ This tab displays the graphs with information pertaining to the Status Codes of 
 | 200  | **OK:** Standard status for a successful HTTP request. It means that the content was delivered to the user correctly. |
 | 204  | **No Content:** It means that the server completed the request, but had no content to deliver. |
 | 206  | **Partial Content:** The server delivered only a part of the content because it was divided into parts. |
-| 2xx  | **Other Status:** There can be other types of Status for requests that were also dealt with, but they are not common. |
+| 2xx  | **Other Status:** There can be other types of Status for requests that have also been handled, but they are not common. |
 
-**HTTP Status Codes 3xx**: This type of status code indicates that the user request was redirected and needs to go through another stage for it to be delivered.
+**HTTP Status Codes 3xx**: This type of status code indicates that the user request was redirected and needs to go through another stage to be delivered.
 
 | Code | Description                                                  |
 | ---- | ------------------------------------------------------------ |
@@ -128,25 +158,25 @@ This tab displays the graphs with information pertaining to the Status Codes of 
 
 | Code | Description                                                  |
 | ---- | ------------------------------------------------------------ |
-| 400  | **Bad request:** The server cannot process the request, generally this is due to an error with the format of the request. |
+| 400  | **Bad request:** The server cannot process the request, generally this is due to an error with the request format. |
 | 403  | **Forbidden:** The request is valid, but was not authorized by the server. This means that the user or the IP that is making the request is not authorized to do so. |
 | 404  | **Not Found:** The file that the request was for does not exist on the origin server. |
 | 4xx  | **Client Error:** There can be other types of Status for requests that also generate errors, but they are not common. |
 
-**HTTP Status Codes 5xx**: This type of status indicates that the server failed to delivered an apparently valid request.
+**HTTP Status Codes 5xx**: This type of status indicates that the server failed to deliver an apparently valid request.
 
 | Code | Description                                                  |
 | ---- | ------------------------------------------------------------ |
-| 500  | **Internal Server Error:** This is the generic message given, when an unexpected error occurs on the server and it is unable to deal with the request. |
-| 502  | **Bad Gateway:** When the server is acting as a Gateway or Proxy and receives an invalid response from the origin. It generally occurs when the origin is offline. |
+| 500  | **Internal Server Error:** This is the generic message given, when an unexpected error occurs on the server and it is unable to handle the request. |
+| 502  | **Bad Gateway:** When the server is acting as a Gateway or Proxy and receives an invalid response from the origin. It generally occurs when the origin server is offline. |
 | 503  | **Service Unavailable:** Server is not available. Generally a temporary Status. |
 | 5xx  | **Server Error:** There can be other types of Status for requests that also generate errors, but they are not common. |
 
 ---
 
-## 7. HTTP Methods {#HTTPMethods}
+### HTTP Methods {#HTTPMethods}
 
-This graph shows the requests for your site divided by the HTTP method used. For getting a better understanding about the HTTP Methods, you can read about them at this link:  [Hypertext Transfer Protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol).
+This graph shows the requests for your site divided by the HTTP method used. Learn more about the HTTP Methods at [ Hypertext Transfer Protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol).
 
 | Method | Description                                                  |
 | ------ | ------------------------------------------------------------ |
@@ -157,15 +187,15 @@ This graph shows the requests for your site divided by the HTTP method used. For
 
 ---
 
-## 8. Web Application Firewall (WAF) {#WebApplicationFirewall}
+### Web Application Firewall (WAF) {#WebApplicationFirewall}
 
-For clients who have the Web Application Firewall product, there is a specific graph to display the behavior of requests.
+For clients who have the Web Application Firewall product, there is a specific graph to display the request behavior.
 
 **Threats vs Requests:** This graph displays the average of blocked attacks for the selected period.
 
-**Cross-Site Scripting (XSS) Threats:** This graph displays the average of Cross-Site Scripting attacks. A type of vulnerability typically found in web applications, which enables the attacker to insert itself alongside client scripts in a web page seen by other users.
+**Cross-Site Scripting (XSS) Threats:** This graph displays the average of Cross-Site Scripting attacks. A type of vulnerability typically found in web applications, which enables the attacker to insert itself alongside client scripts on a web page viewed by other users.
 
-**Remote File Inclusion (RFI) Threats:** This graph displays the average of Remote File Inclusion attacks, a type of vulnerability typically found in websites. It enables the attacker to add a file on the web server.
+**Remote File Inclusion (RFI) Threats:** This graph displays the average of Remote File Inclusion attacks, a type of vulnerability typically found on websites. It enables the attacker to add a file on the web server.
 
 **SQL Injection Threats:** This graph displays the average of SQL Injection attacks, a technique for inserting code used to attack data-driven applications.
 
@@ -173,21 +203,21 @@ For clients who have the Web Application Firewall product, there is a specific g
 
 ---
 
-## 9. Live Streaming {#LiveStreamingConnections}
+### Live Streaming {#LiveStreamingConnections}
 
-This tab is available when the client has the *Live Streaming* product. It displays information about the number of users connected to the company’s streams.
+For clients who have the *Live Streaming* product, this tab displays a specific graph with the information about the number of users connected to the company’s streams.
 
-**Average Connected Users:** Average of users connected to the selected stream. Average users connected during the period is displayed at the foot of the graph.
+**Average Connected Users:** Average of users connected to the selected stream. You’ll see the average users connected during the selected period displayed at the bottom of the graph.
 
-**Max Connected Users:** Maximum number of users connected to the selected stream. Maximum number of users connected during the period is displayed at the foot of the graph.
+**Max Connected Users:** Maximum number of users connected to the selected stream. You’ll see the maximum number of users connected during the selected period displayed at the bottom of the graph.
 
 ---
 
-## 10. Bandwidth Saving {#Bandwidth}
+### Bandwidth Saving {#Bandwidth}
 
-This tab is available when the client has the *Image Processor* solution. It displays the savings that the client has made when transmitting images.
+For clients who have the *Image Processor* product, there is a specific graph to display their savings when transmitting images.
 
-The total optimization from transmitting images is shown at the foot of the graph.
+The total optimization from transmitting images is displayed at the bottom of the graph.
 
 ---
 
