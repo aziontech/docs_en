@@ -6,18 +6,26 @@ Real-Time Metrics is an Edge Analytics product that provides you with real-time 
 
 Get to know what's happening on the platform and track the behavior of your applications in real time.
 
-> 1. [Basics](#Basics)
-> 2. [Accessing Real-Time Metrics](#AccessingReal-TimeMetrics)
+> 1. [Accessing Real-Time Metrics](#AccessingReal-TimeMetrics)
+> 2. [Basics](#Basics)
 > 3. [Selecting your Data Interval Filter](#SelectingyourDataIntervalFilter)
 > 4. [Exporting to CSV](#ExportingtoCSV)
 > 5. [Interpreting your Graphs](#InterpretingyourGraphs)
 > 6. [Tracking your Applications](#TrackingyourApplications)
 > 
->    
 
 ---
 
-## 1. Basics{#Basics}
+## 1. Accessing Real-Time Metrics {#AccessingReal-TimeMetrics}
+
+You are about to have real-time insight at your command! Get started with Real-Time Metrics as follows:
+
+- Enter [Real-Time Manager](https://manager.azion.com/) and click either on *Real-time Metrics* under Edge Analytics or through the top left menu. You’ll be directed to the Real-time Metrics - Edge Applications page.
+
+
+---
+
+## 2. Basics{#Basics}
 
 The Real-Time Metrics screen is composed of the *Data Interval Filter* section and the *Data* section. 
 
@@ -27,21 +35,9 @@ The Real-Time Metrics screen is composed of the *Data Interval Filter* section a
 
 Real-Time Metrics enables you to apply filters to focus on a variety of data. You can select a period or domain you want to analyse or even choose where the graphs of the requested data are displayed. 
 
+>  As you hover the mouse over the graphs, you’ll get the exact values transferred over a period.
 
 
-> As you hover the mouse over the graphs, you’ll get the exact values transferred over a period.
-
-
-
----
-
-## 2. Accessing Real-Time Metrics {#AccessingReal-TimeMetrics}
-
-You are about to have real-time insight at your command! Get started with Real-Time Metrics as follows:
-
-- Enter [Real-Time Manager](https://manager.azion.com/) and click either on *Real-time Metrics* under Edge Analytics or through the top left menu. You’ll be directed to the Real-time Metrics - Edge Applications page.
-
-  
 
 ---
 
