@@ -18,9 +18,11 @@ Get to know what's happening on the platform and track the behavior of your appl
 
 ## 1. Accessing Real-Time Metrics {#AccessingReal-TimeMetrics}
 
-You are about to have real-time insight at your command! Get started with Real-Time Metrics as follows:
+You are about to get real-time insights from your applications. Get started with Real-Time Metrics as follows:
 
-- Enter [Real-Time Manager](https://manager.azion.com/) and click either on *Real-time Metrics* under Edge Analytics or through the top left menu. You’ll be directed to the Real-time Metrics - Edge Applications page.
+- Enter [Real-Time Manager](https://manager.azion.com/) and click either on *Real-time Metrics* under Edge Analytics or through the top left menu. 
+
+You’ll be directed to the Real-time Metrics page, which displays the Edge Applications product graphs by default.
 
 
 ---
@@ -33,11 +35,9 @@ The Real-Time Metrics screen is composed of the *Data Interval Filter* section a
 
 - *Data* section: where graphs are displayed according to your filter selection. 
 
-Real-Time Metrics enables you to apply filters to focus on a variety of data. You can select a period or domain you want to analyse or even choose where the graphs of the requested data are displayed. 
+Real-Time Metrics enables you to apply filters to focus on a variety of data by simply selecting a period or domain you want to analyze.
 
->  As you hover the mouse over the graphs, you’ll get the exact values transferred over a period.
-
-
+>  As you hover the mouse over the graphs, you’ll get the exact values that occurred in a given period.
 
 ---
 
@@ -52,23 +52,13 @@ All the graph options for the products in Real-Time Metrics have the Data Interv
 
 The graphs are updated and the information is displayed accordingly. 
 
-
-
 > Note that the graphs presented will vary according to the products you have contracted.
-
-
 
 ---
 
 ## 4. Exporting to CSV {#ExportingtoCSV}
 
-You can export the information as a CSV file. 
-
-- After applying the filters, click on the CSV icon next to the graph you want to export. 
-
-  Done. Your data at your fingertips!
-  
-  
+You can export the information as a CSV file.  After applying the filters, click on the CSV icon next to the graph you want to export.  Done. Your data at your fingertips!
 
 ---
 
@@ -76,13 +66,13 @@ You can export the information as a CSV file.
 
 The information is displayed according to the product and period of time selected in the filters. Graphs will be grouped in tabs as described in the next section, *Tracking your Applications*.
 
-
-
 ---
 
 ## 6. Tracking your Applications {#TrackingyourApplications}
 
-Information is key when taking decisions. Real-Time Metrics offers you a variety of options displayed in tabs, so you can support your actions more effectively. Check out the function of these tabs - *[Data Transferred](#DataTransferred) - [Requests](#Requests) - [Status Codes](#StatusCodes) - [HTTP Methods](#HTTPMethods) - [WAF](#WAF) - [Live Streaming](#LiveStreaming) - [Bandwidth Saving](#BandwidthSaving)* - as follows.
+Data is key when taking decisions. Real-Time Metrics offers you a variety of options displayed in tabs, so you can support your actions more effectively. 
+
+Check out the function of these tabs - *[Data Transferred](#DataTransferred) - [Requests](#Requests) - [Status Codes](#StatusCodes) - [HTTP Methods](#HTTPMethods) - [WAF](#WAF) - [Live Streaming](#LiveStreaming) - [Bandwidth Saving](#BandwidthSaving)* - as follows.
 
 ### Data Transferred {#DataTransferred}
 
@@ -90,7 +80,7 @@ This tab displays graphs referring to the amount of data transferred for the pro
 
 **Edge Caching:** This graph shows the sum - *Saved Data* + *Missed Data* - of data transferred for the product and period you have selected. At the bottom of the graph, you'll see the total amount of data - Edge Application *In* + Edge Application *Out -*  transferred for the product and period you have selected.
 
-**L2 Caching:** You'll also get the data for *L2 Caching In* + *L2 Caching Out* displayed separately at the bottom of the graph. Your applications in greater detail.
+**L2 Caching:** In addition to displaying the total *L2 Caching*, you'll also get the data on *L2 Caching In* + *L2 Caching Out* displayed separately at the bottom of the graph. Your applications in greater detail.
 
 **Edge Offload:** This graph displays the percentage of the amount of data delivered by the Azion product. It displays the *Saved Data* graph in percentages. You'll see the averages for the selected period displayed at the bottom of the graph.
 
@@ -104,9 +94,9 @@ You'll see the total amount for the selected period displayed at the bottom of t
 
 **Bandwidth Usage**
 
-***Total Bandwidth Usage:***  Quantity of MBps in bandwidth used. You'll see the average bandwidth used during the selected period displayed at the bottom of the graph. 
+**Total Bandwidth Usage:**  Quantity of MBps in bandwidth used. You'll see the average bandwidth used during the selected period displayed at the bottom of the graph. 
 
-***Bandwidth Offloaded:*** Percentage of the bandwidth that was offloaded. You'll see the average bandwidth used during the selected period displayed at the bottom of the graph. 
+**Bandwidth Offloaded:** Percentage of the bandwidth that was offloaded. You'll see the average bandwidth used during the selected period displayed at the bottom of the graph. 
 
 ***Saved Bandwidth:*** Quantity of MBps of bandwidth that was delivered directly through the Edge Network, without looking up content on the origin server. 
 
@@ -128,9 +118,9 @@ You'll see the average bandwidth used during the selected period displayed at th
 
 **Requests per Second**
 
-***Total Requests per Second:*** The amount of requests per second, from customers for content. You'll see the average number of requests per second during the selected period displayed at the bottom of the graph.
+**Total Requests per Second:** The amount of requests per second, from customers for content. You'll see the average number of requests per second during the selected period displayed at the bottom of the graph.
 
-***Requests per Second Offloaded:*** Percentage of the requests per second delivered by the Azion servers without looking up content on the origin server. You'll see the average for the selected period is at the bottom of the graph. 
+**Requests per Second Offloaded:** Percentage of the requests per second delivered by the Azion servers without looking up content on the origin server. You'll see the average for the selected period is at the bottom of the graph. 
 
 ***Saved Requests per Second:*** Quantity of requests per second delivered by the Azion servers without looking up content on the origin server. You'll see the average number of requests delivered during the selected period displayed at the bottom of the graph. 
 
