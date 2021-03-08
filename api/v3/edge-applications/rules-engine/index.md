@@ -251,9 +251,9 @@ Necessary permission: **Edit Edge Application**
 | ---------------------------------- | ------------------------------------------------------------ | ------ | --------------------------------------- |
 | Authorization *(mandatory)*        | Authentication through the Token, previously created through the endpoint of [Token Creation]({% tl api_v3_authentication %}#criacao-de-token) | header | string                                  |
 | Accept <br />*(mandatory)*         | Details about the type of return and version                 | header | string;<br>*application/json;version=3* |
-| :edge_application_id *(mandatory)* | The id of the edge application you plan to query             | path   | number                                  |
+| :edge_application_id *(mandatory)* | The id of the edge application you plan to delete            | path   | number                                  |
 | :phase <br />*(mandatory)*         | The processing phase you can manipulate on Rules Engine      | path   | string                                  |
-| :rule_id<br /> *(mandatory)*       | The id of the rule you plan to query                         | path   | number                                  |
+| :rule_id<br /> *(mandatory)*       | The id of the rule you plan to delete                        | path   | number                                  |
 
 
 
@@ -288,9 +288,9 @@ Necessary permission: **Edit Security Settings**
 | Authorization *(mandatory)*        | Authentication through the Token, previously created through the endpoint of [Token Creation]({% tl api_v3_authentication %}#criacao-de-token) | header | string                                  |
 | Accept <br />*(mandatory)*         | Details about the type of return and version                 | header | string;<br>*application/json;version=3* |
 | Content-Type *(mandatory)*         | The type of coding used in the Body (application/json).<br><br>e.g.:<br><br>Content-Type: application/json | header | string                                  |
-| :edge_application_id *(mandatory)* | The id of the edge application you plan to query             | path   | number                                  |
+| :edge_application_id *(mandatory)* | The id of the edge application you plan to create            | path   | number                                  |
 | :phase<br /> *(mandatory)*         | The processing phase you can manipulate on Rules Engine      | path   | string                                  |
-| :rule_id <br />*(mandatory)*       | The id of the rule you plan to query                         | path   | number                                  |
+| :rule_id <br />*(mandatory)*       | The id of the rule you plan to create                        | path   | number                                  |
 
 
 
@@ -386,9 +386,9 @@ Necessary Permission: **Edit Edge Application**
 | Authorization *(mandatory)*        | Authentication through the Token, previously created through the endpoint of [Token Creation]({% tl api_v3_authentication %}#criacao-de-token) | header | string                                  |
 | Accept *(mandatory)*               | Details about the type of return and version                 | header | string;<br>*application/json;version=3* |
 | Content-Type *(mandatory)*         | The type of coding used in the Body (application/json).<br><br>e.g.:<br><br>Content-Type: application/json | header | string                                  |
-| :edge_application_id *(mandatory)* | The id of the edge application you plan to query             | path   | number                                  |
+| :edge_application_id *(mandatory)* | The id of the edge application you plan to overwrite         | path   | number                                  |
 | :phase *(mandatory)*               | The processing phase you can manipulate on Rules Engine      | path   | string                                  |
-| :rule_id *(mandatory)*             | The id of the rule you plan to query                         | path   | number                                  |
+| :rule_id *(mandatory)*             | The id of the rule you plan to overwrite                     | path   | number                                  |
 
 
 
@@ -482,9 +482,9 @@ Necessary permission: **Edit Edge Application**
 | Authorization *(mandatory)*        | Authentication through the Token, previously created through the endpoint of [Token Creation]({% tl api_v3_authentication %}#criacao-de-token) | header | string                                  |
 | Accept *(mandatory)*               | Details about the type of return and version                 | header | string;<br>*application/json;version=3* |
 | Content-Type *(mandatory)*         | The type of coding used in the Body (application/json).<br><br>e.g.:<br><br>Content-Type: application/json | header | string                                  |
-| :edge_application_id *(mandatory)* | The id of the edge application you plan to query             | path   | number                                  |
+| :edge_application_id *(mandatory)* | The id of the edge application you plan to update            | path   | number                                  |
 | :phase<br /> *(mandatory)*         | The processing phase you can manipulate on Rules Engine      | path   | string                                  |
-| :rule_id  <br />*(mandatory)*      | The id of the rule you plan to query                         | path   | number                                  |
+| :rule_id  <br />*(mandatory)*      | The id of the rule you plan to update                        | path   | number                                  |
 
 
 
