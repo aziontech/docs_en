@@ -11,13 +11,13 @@ Explore how to use and get the most out of Edge Functions as follows.
 1. [About Edge Functions](#About-Edge-Functions)
 2. [How it works](#Howitworks)
 3. [Basics](#basics)
-4. [Step-by-step: creating an Edge Function](#stepbystep:creatinganedgefunction)
-5. [Activating your settings](#activatingyour settings)
+4. [Step-by-step: creating an Edge Function](#stepbystepcreatinganedgefunction)
+5. [Activating your settings](#activatingyoursettings)
 6. [Support documentation](#Supportdocumentation)
 
 ------
 
-## 1. About Edge Functions {#aboutedgefunctions}
+## 1. About Edge Functions {#About-Edge-Functions}
 
 Here are some of the solutions provided by Azion Edge Functions. 
 
@@ -30,7 +30,7 @@ You can use functions to handle HTTP in the following Request and Response phase
 
 You can also generate Responses without necessarily having to forward the request to the origin.
 
-Using Edge Functions written in **Lua** and **JavaScript** on Azion's Edge Computing platform, you can create a variety of solutions, for example:
+Using Edge Functions written in **Lua** and **JavaScript** on the Azion's Edge Computing Platform, you can create a variety of solutions, for example:
 
 - inspect cookies to rewrite URLs to different versions of a site for A/B testing;
 - send different objects to your users based on the User-Agent header, which contains information about the device that submitted the request. For example, you can send images in different resolutions to users based on their devices;
@@ -44,7 +44,7 @@ See more ways of using Edge Functions in [Use Cases](https://www.azion.com/en/do
 
 ---
 
-## 2. How it works {#howitworks}
+## 2. How it works {#Howitworks}
 
 Create your custom functions or use any of the existing ones provided by Azion, both for Edge Application or Edge Firewall. 
 
@@ -56,7 +56,7 @@ The language-specific Runtime provides a programming interface for interacting a
 
 When instantiating an Edge Function, you can enter parameters that will be passed on to the function, in [JSON](https://www.json.org/) format, through arguments. You can also define and run tests online to validate its construction.
 
-Edge Functions are performed directly on Azion Edges infrastructure. To use them, they just need to be associated to a Behavior in the Rules Engine. Thus, when a request meets the criteria defined in the Rule Engine rules, the Edge Function will be triggered.
+Edge Functions are performed directly on the Azion Edges infrastructure. To use them, they just need to be associated to a Behavior in the Rules Engine. Thus, when a request meets the criteria defined in the Rule Engine rules, the Edge Function will be triggered.
 
 Next, you'll get to know more details about the Azion Edge Functions.
 
@@ -98,27 +98,28 @@ We provide real-time information about the performance of your Edge Functions, t
 
 To access the graphs, follow these steps:
 
-1. Enter the [Real-Time Manager](https://manager.azion.com/) and click either on *Real-time Metrics* under Edge Analytics or through the top left menu.  Then, click **Edge Functions**.
-2. Select the Edge Functions and the period you want to analyze. Click the *Filter* button.
+1. Enter the [Real-Time Manager](https://manager.azion.com/) and click either on *Real-time Metrics* either through the *Edge Analytics* or the *Products* menu, on the top left.  Then, click on **Edge Functions**.
+2. Select the **Edge Functions** and the **period** you want to analyze. Click on the **Filter** button.
 3.  You'll get the total number of invocations per instance of Edge Functions from Edge Firewall, for example.
 
 Learn more about [Real-Time Metrics](https://www.azion.com/en/documentation/products/real-time-metrics/).
 
 ---
 
-## 4. Step-by-step: creating an Edge Function {#stepbystep}
+## 4. Step-by-step: creating an Edge Function {#stepbystepcreatinganedgefunction}
 
-You are one step closer to creating and running serverless functions in Edge Nodes from Azion's powerful distributed network.
+You are one step closer to creating and running serverless functions in Edge Nodes from the Azion's powerful distributed network.
 
 To see your Edge Function in effectively operation you just need to write, instantiate and associate it with a Behavior _Run Function_, using a Rule in the Rules Engine:
 
-1. Access the [Real-Time Manager](https://manager.azion.com/). Enter the Edge Computing menu and select Edge Functions.
+1. Log into the [Real-Time Manager](https://manager.azion.com/). On the Edge Computing menu, click on **Edge Functions**.
 
 
-2. Click the _Add Function_ button to add a new Edge Function.
+2. Click on **Add Function** to add a new Edge Function.
+3. Name your function in the **Edge Function Name** field to be able to save your settings.
 
 
-3. In *Language*, select ***JavaScript***. Copy this example to the *Code* tab field.
+3. In *Language*, select **JavaScript**. Copy the following example to the *Code* tab field.
 
    ~~~
    async function handleRequest(request) {
@@ -133,33 +134,35 @@ To see your Edge Function in effectively operation you just need to write, insta
    ~~~
 
 
-4. In *Function to run*, enter the name of the main function to run in the source code.
-5. Select the initiator type, which refers to the type of module where the function will be instantiated and executed.  In this example, Edge Application.
-6. Access an Edge Application from your list through the top left menu and enable the Edge Functions module.
-7. On the ***Rules Engine*** tab, create or edit a Rule and in the ***Behavior*** section, in the *Then* field, select "Run Function" and associate it to the desired **Edge Function**. 
-8. Example of response when running the Behavior Run Function:
+4. In the *Function to run* field, enter the name of the main function to run in the source code.
+5. Select the *Initiator Type*, which refers to the type of module where the function will be instantiated and executed.  In this example, it refers to Edge Application.
+6. Click on **Save** to save your settings. You return to the Edge Functions home page, where you see your list of Edge Functions. 
+7. Then, access the **Products** menu, on the top left. Select an **Edge Application** from your list.
+8. On the *Main Settings* tab, enable the **Edge Functions** module in the *Edge Application Modules* section.
+9. On the *Rules Engine* tab, create or edit a Rule and in the *Behavior* section, in the *Then* field, select **Run Function** and associate it to the desired **Edge Function**. 
+10. Example of response when running the Behavior *Run Function*:
 
 ~~~
 Hello World!
 ~~~
 
-9. Use ***Real-Time Metrics*** to track metrics. For example, the number of Invocations of Edge Functions instances.
+9. Use ***Real-Time Metrics*** to check on your metrics. For example, when you want to see the number of Invocations of Edge Functions instances.
 
->  Fields marked with an asterisk are mandatory, as well as filling in the *Name for the Edge Function* field. 
+>  Fields marked with an asterisk are required. 
 
 ------
 
-## 5. Activating your Settings{#Activatingyoursettings}
+## 5. Activating your Settings{#activatingyoursettings}
 
 You will find the following buttons at the bottom of the screen:
 
-- **Is Active:** Turn on the *Is Active* button to enable your settings on the system.
+- **Active:** this option enables or disables your settings on the system.
 
-- **Cancel:** With this option, you return to the Data Streaming home page, also discard your edits.
+- **Cancel:** With this option, you return to the  Edge Functions home page, also discard your edits.
 
-- **Save:** Once your selections are complete, save your settings by clicking the *Save* button.
+- **Save:** Once your selections are complete, click on **Save** to save your settings.
 
-  
+When you save your settings, you return to the Edge Functions home page, where you see your list of Edge Functions sorted by these options: *name, language, initiator type, last editor, last modified,* *ref. count* and *active*. By clicking on the arrows on those tabs, you can also change how your list is displayed.  
 
 ---
 
